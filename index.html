@@ -2,47 +2,105 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>PowerCollective Test Page</title>
+  <title>Learn JSON (JavaScript Object Notation)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- AdSense account tag -->
+  <meta name="google-adsense-account" content="ca-pub-8987546841569521">
+
+  <!-- AdSense script -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8987546841569521"
+    crossorigin="anonymous"></script>
+
   <style>
     body {
-      
+      background: #000822; /* super dark blue */
+      color: #ffffff;
       font-family: Arial, sans-serif;
-      background: #111;
-      color: #eee;
       margin: 0;
       padding: 40px;
       text-align: center;
+      font-weight: bold;
     }
-    <meta name="google-adsense-account" content="ca-pub-8987546841569521">
+
     .box {
-      display: inline-block;
-      padding: 20px 30px;
+      background: #001133; /* dark blue panel */
+      color: #ffffff;
+      padding: 25px 35px;
       border-radius: 12px;
-      background: #1b1b1b;
-      border: 1px solid #333;
+      display: inline-block;
+      text-align: left;
+      max-width: 800px;
+      width: 90%;
     }
+
     h1 {
-      margin-top: 0;
+      text-align: center;
+      color: #ffffff;
+      font-weight: bold;
       font-size: 2rem;
-      font-weight: 600;
+      margin-top: 0;
     }
-    p {
-      margin: 8px 0;
-      color: #ccc;
-      <script async custom-element="amp-auto-ads"
-        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8987546841569521"
-     crossorigin="anonymous"></script>
-</script>
+
+    p, li {
+      color: #ffffff;
+      font-weight: bold;
+      line-height: 1.5rem;
+    }
+
+    pre {
+      background: #000814;
+      color: #00ffcc;
+      padding: 15px;
+      border-radius: 8px;
+      overflow: auto;
+      font-weight: normal;
+    }
+
+    ul {
+      margin-left: 20px;
     }
   </style>
 </head>
+
 <body>
+
   <div class="box">
-    <h1>PowerCollective is Live</h1>
-    <p>If you can see this page at <strong>powercollective.fun</strong>, your domain is successfully connected to GitHub Pages.</p>
-    <p>You can now add your real site content or connect AdSense later.</p>
+    <h1>Learn JSON (JavaScript Object Notation)</h1>
+
+    <p>JSON is a lightweight format used to store and send data. It’s easy for humans to read and easy for computers to understand.</p>
+
+    <p>Here is an example of JSON:</p>
+
+    <pre>
+{
+  "name": "Devon",
+  "age": 17,
+  "skills": ["coding", "servers", "web design"]
+}
+    </pre>
+
+    <p>How JSON works:</p>
+    <ul>
+      <li>Data is written in <strong>key : value</strong> pairs</li>
+      <li>Keys must be inside quotes</li>
+      <li>Values can be text, numbers, lists, or objects</li>
+      <li>Objects use <code>{ }</code></li>
+      <li>Arrays use <code>[ ]</code></li>
+    </ul>
+
+    <p>Try editing this JSON:</p>
+
+    <pre>
+{
+  "username": "YourNameHere",
+  "level": 1,
+  "inventory": ["sword", "shield"]
+}
+    </pre>
+
+    <p>Change the values and imagine how a game or website would use this data.</p>
   </div>
+
 </body>
 </html>
