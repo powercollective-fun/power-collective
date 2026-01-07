@@ -1,0 +1,39 @@
+
+Glaze Open Mod License (GOML)
+Version 1.0
+Copyright (c) 2026 PowerCollective Work Co.  
+All rights reserved.
+
+
+Permission Summary
+This license grants limited permission to use, modify, and include the software in modpacks, under the conditions described below. All rights not expressly granted are reserved by the copyright holder.
+
+1. Distribution
+1.1. Redistribution of the original software, modified versions, or derivative works is prohibited without explicit written permission from the copyright holder.
+1.2. Reuploads to third‑party platforms (including but not limited to CurseForge, Modrinth, GitHub, or any file‑hosting service) are not permitted without authorization.
+
+2. Modpacks
+2.1. The software may be included in public or private modpacks.
+2.2. Proper credit to the original author is required in any modpack distribution.
+2.3. Modpacks may not charge money for access to the software or any derivative of it.
+
+3. Modifications
+3.1. Users may modify the software for personal use.
+3.2. Modified versions may not be distributed publicly without explicit permission.
+3.3. Any authorized distribution of modified versions must clearly state the changes made and must retain the original copyright notice.
+
+4. Commercial Use
+4.1. Commercial use of the software, including but not limited to selling, licensing, paywalled access, or monetized distribution, is strictly prohibited.
+4.2. The software may not be used in any product or service that generates revenue.
+
+5. Ownership
+5.1. The copyright holder retains full ownership of the software and all associated assets.
+5.2. This license does not transfer ownership or grant exclusive rights.
+
+6. Liability
+6.1. The software is provided “as is,” without warranty of any kind.
+6.2. The copyright holder is not liable for any damages, losses, or issues arising from the use of the software.
+
+7. Termination
+7.1. Any violation of this license immediately terminates all granted permissions.
+7.2. Upon termination, the user must cease all distribution and remove all public copies of the software.
