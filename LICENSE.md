@@ -1,5 +1,5 @@
 
-Glaze Open Mod License (GOML)
+Glaze Open Mod & Site License (GOMSL)
 Version 1.0
 Copyright (c) 2026 PowerCollective Work Co.  
 All rights reserved.
