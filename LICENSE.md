@@ -23,7 +23,7 @@ This license grants limited permission to use, modify, and include the software 
 3.3. Any authorized distribution of modified versions must clearly state the changes made and must retain the original copyright notice.
 
 4. Commercial Use
-4.1. Commercial use of the software, including but not limited to selling, licensing, paywalled access, or monetized distribution, is strictly prohibited.
+4.1. Anyone can advertise your mod and keep 100% of the ad revenue.
 4.2. The software may not be used in any product or service that generates revenue.
 
 5. Ownership
