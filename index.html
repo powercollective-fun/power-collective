@@ -4,20 +4,89 @@
   <meta charset="UTF-8">
   <title>PowerCollective</title>
   <style>
-  body { margin: 0; font-family: Arial, sans-serif; display: flex; height: 100vh; } ::selection { background: #F9B6B6; color: white; } ::-moz-selection { background: #B6BDF9; color: white; } .sidebar { width: 220px; background: #111827; color: #e5e7eb; display: flex; flex-direction: column; padding: 20px 0; } .sidebar h2 { margin: 0 20px 20px; font-size: 18px; } .nav-link { padding: 10px 20px; color: #e5e7eb; text-decoration: none; display: block; font-size: 14px; } .nav-link:hover { background: #1f2937; } .nav-link.active { background: #2563eb; } .main { flex: 1; background: #f3f4f6; padding: 20px; overflow-y: auto; } .main h1 { margin-top: 0; } 
+    body { margin: 0; font-family: Arial, sans-serif; display: flex; height: 100vh; }
+    ::selection { background: #F9B6B6; color: white; }
+    ::-moz-selection { background: #B6BDF9; color: white; }
+
+    .sidebar {
+      width: 220px;
+      background: #111827;
+      color: #e5e7eb;
+      display: flex;
+      flex-direction: column;
+      padding: 20px 0;
+    }
+
+    .sidebar h2 { margin: 0 20px 20px; font-size: 18px; }
+    .nav-link {
+      padding: 10px 20px;
+      color: #e5e7eb;
+      text-decoration: none;
+      display: block;
+      font-size: 14px;
+    }
+    .nav-link:hover { background: #1f2937; }
+    .nav-link.active { background: #2563eb; }
+
+    .main {
+      flex: 1;
+      background: #f3f4f6;
+      padding: 20px;
+      overflow-y: auto;
+    }
+
+    .main h1 { margin-top: 0; }
+
+    /* BOT GRID STYLING */
+    .bot-grid {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .bot-card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      width: 150px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .bot-card img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+    }
+
+    .bot-name {
+      margin-top: 10px;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
   <div class="sidebar">
-    <h2>PowerCollective</h2><a href="index.html" class="nav-link active">Home</a> <a href="LICENSE.md" class="nav-link">License</a> <a href="contact.html" class="nav-link">Contact</a>
+    <h2>PowerCollective</h2>
+    <a href="index.html" class="nav-link active">Home</a>
+    <a href="LICENSE.md" class="nav-link">License</a>
+    <a href="contact.html" class="nav-link">Contact</a>
   </div>
+
   <div class="main">
     <h1>Home</h1>
     <p>Welcome to the site. These show Discord Bots we've made and Credits including more! like Links.</p>
-    
-    
-    
-    <p>test</p>
+    <p>These Our bots we've Made!</p>
+
+    <!-- BOT GRID START -->
+    <div class="bot-grid">
+
+      <div class="bot-card">
+        <img src="numberstyle.png" alt="NumberStyle">
+        <p class="bot-name">Number Style</p>
+      </div>
+
   </div>
 </body>
 </html>
